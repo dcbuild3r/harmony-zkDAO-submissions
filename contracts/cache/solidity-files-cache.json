@@ -1,0 +1,206 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "sources": "src",
+    "tests": "test",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "/Users/dcbuilder/Code/projects/harmony-zkDAO-submissions/contracts/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1649850421864,
+      "contentHash": "82a8604fe648c30a9bd56444368704f0",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {
+        "DSTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "test.sol/DSTest.0.8.13.json"
+        }
+      }
+    },
+    "/Users/dcbuilder/Code/projects/harmony-zkDAO-submissions/contracts/src/TimeBoundBallot.sol": {
+      "lastModificationDate": 1649862445056,
+      "contentHash": "9cb5f50e90836043b044c2cc77d349fd",
+      "sourceName": "src/TimeBoundBallot.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.7.0, <0.9.0",
+      "artifacts": {
+        "TimeBoundBallot": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "TimeBoundBallot.sol/TimeBoundBallot.json"
+        }
+      }
+    },
+    "/Users/dcbuilder/Code/projects/harmony-zkDAO-submissions/contracts/src/ZKP.sol": {
+      "lastModificationDate": 1649850115531,
+      "contentHash": "5282fabda04384aa527fa450676d9ca6",
+      "sourceName": "src/ZKP.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "=0.8.13",
+      "artifacts": {
+        "ZKP": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ZKP.sol/ZKP.json"
+        }
+      }
+    },
+    "/Users/dcbuilder/Code/projects/harmony-zkDAO-submissions/contracts/src/test/TimeBoundBallot.t.sol": {
+      "lastModificationDate": 1649862631153,
+      "contentHash": "30f9071c8b9fe87fa88514c0c27fb9b3",
+      "sourceName": "src/test/TimeBoundBallot.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol",
+        "src/TimeBoundBallot.sol"
+      ],
+      "versionRequirement": "=0.8.13",
+      "artifacts": {
+        "ContractTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "TimeBoundBallot.t.sol/ContractTest.json"
+        },
+        "Vm": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "TimeBoundBallot.t.sol/Vm.json"
+        }
+      }
+    },
+    "/Users/dcbuilder/Code/projects/harmony-zkDAO-submissions/contracts/src/test/ZKP.t.sol": {
+      "lastModificationDate": 1649850533549,
+      "contentHash": "873e6232090a6fdc6d20736f5b399201",
+      "sourceName": "src/test/ZKP.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": "=0.8.13",
+      "artifacts": {
+        "ContractTest": {
+          "0.8.13+commit.abaa5c0e.Darwin.appleclang": "ZKP.t.sol/ContractTest.json"
+        }
+      }
+    }
+  }
+}
