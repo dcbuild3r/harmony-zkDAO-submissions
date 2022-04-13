@@ -1,6 +1,11 @@
 # harmony-zkDAO-submissions
 Answers to the pre-requisite tasks for entering the summer 2022 Harmony zkDAO summit. 
 
+## Contracts
+- [Simple Store/Retrieve Number contract](https://github.com/dcbuild3r/harmony-zkDAO-submissions/blob/main/contracts/src/ZKP.sol)
+- [Time-bound ballot](https://github.com/dcbuild3r/harmony-zkDAO-submissions/blob/main/contracts/src/TimeBoundBallot.sol)
+- [Simple Time-bound ballot tests written in Foundry](https://github.com/dcbuild3r/harmony-zkDAO-submissions/blob/main/contracts/src/test/TimeBoundBallot.t.sol)
+
 ### What is a smart contract? How are they deployed? You should be able to describe how a smart contract is deployed and the necessary steps.
 
 - A smart contract is a set of instructions to be performed by a network of computers all around the world where the results of each computer get checked against each other to see whether they have reached the same conclusion.
